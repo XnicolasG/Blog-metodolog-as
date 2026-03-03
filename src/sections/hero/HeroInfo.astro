@@ -1,0 +1,26 @@
+---
+import { Image } from "astro:assets";
+import compensar from '../../img/compensar.png'
+
+---
+
+<section class="flex flex-col text-lg px-8 mt-22 gap-2">
+    <div class="flex justify-between">
+        <h2 class="text-4xl">Nicolás García López 💻</h2>
+        <div class="flex items-center gap-x-4">
+            <figure class=" size-10 rounded-full object-cover overflow-hidden">
+                <Image 
+                class='w-full'
+                src={compensar}
+                alt='Ucompensar logo'
+                />
+            </figure>
+            <h4 class="text-xl text-amber-600">UCompensar</h4>
+        </div>
+    </div>
+    <article class="text-white/50 mt-4">
+        <p>Fundamentos de construcción de software</p>
+        <p>Bogotá, CO</p>
+        <p></p>
+    </article>
+</section>
