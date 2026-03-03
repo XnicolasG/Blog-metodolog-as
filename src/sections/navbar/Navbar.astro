@@ -1,0 +1,32 @@
+---
+const navItems = [
+    {
+        title: "Header",
+        Link: "#header",
+    },
+    {
+        title: "Página principal",
+        Link: "#home",
+    },
+    {
+        title: "Footer",
+        Link: "#footer",
+    },
+];
+---
+
+<nav class="w-full text-xl sticky top-0">
+    <ul class="flex gap-x-8 px-8 py-4 border-2 backdrop-blur-lg">
+        {
+            navItems?.map((item) => (
+                <a
+                    href={item?.Link}
+                    target="_blank"
+                    class="cursor-pointer hover:text-amber-600 transition-all focus:text-amber-600 duration-150"
+                >
+                    {item?.title}
+                </a>
+            ))
+        }
+    </ul>
+</nav>

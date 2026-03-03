@@ -1,0 +1,99 @@
+{
+  "cabecera": {
+    "secciones": [
+      {
+        "id": "actividades-desarrollo",
+        "titulo": "Actividades del Desarrollo de Software",
+        "explicacion": "El proceso de construcción de software es un conjunto de actividades sistemáticas que permiten desarrollar, mantener y operar un sistema. Estas actividades conforman el ciclo de vida del software e incluyen especificación de requerimientos, planeación, modelado, desarrollo e implementación.",
+        "temas": [
+          {
+            "titulo": "Especificación de Requerimientos",
+            "explicacion": "Los interesados del proyecto definen y acuerdan los requerimientos que el software debe cumplir. Incluye obtención, análisis, especificación y validación de requerimientos.",
+            "imagen": "",
+            "palabrasClave": [
+              { "termino": "Obtención", "definicion": "Recolección de necesidades mediante entrevistas, cuestionarios o datos." },
+              { "termino": "Análisis", "definicion": "Evaluación de viabilidad técnica, económica y temporal." },
+              { "termino": "Especificación", "definicion": "Documentación formal de los requerimientos." },
+              { "termino": "Validación", "definicion": "Verificación de que los requerimientos sean completos, coherentes y alcanzables." }
+            ]
+          },
+          {
+            "titulo": "Planeación",
+            "explicacion": "Se define un plan que guiará el desarrollo del proyecto. Incluye prácticas administrativas y técnicas para establecer un mapa estratégico y táctico del proyecto.",
+            "imagen": ""
+          },
+          {
+            "titulo": "Modelado (Diseño)",
+            "explicacion": "Se crea un modelo abstracto del sistema basado en los requerimientos. Incluye arquitectura, estructuras de datos, interfaces y componentes.",
+            "imagen": "",
+            "palabrasClave": [
+              { "termino": "Diseño de arquitectura", "definicion": "Identificación de subsistemas y sus relaciones." },
+              { "termino": "Diseño de interfaces", "definicion": "Definición de cómo interactúan los subsistemas." },
+              { "termino": "Diseño de componentes", "definicion": "Asignación de servicios a componentes específicos." }
+            ]
+          },
+          {
+            "titulo": "Desarrollo",
+            "explicacion": "Se genera el código fuente del sistema. Incluye implementación, parametrización y aplicación de principios como reducción de complejidad y facilidad de pruebas.",
+            "imagen": ""
+          },
+          {
+            "titulo": "Implementación",
+            "explicacion": "Puesta en marcha del software. Incluye corrección de errores, ajustes y actividades de mantenimiento posteriores.",
+            "imagen": ""
+          }
+        ]
+      },
+      {
+        "id": "modelos-desarrollo",
+        "titulo": "Modelos de Desarrollo de Software",
+        "explicacion": "Los modelos de desarrollo organizan las actividades del proceso de software. Definen cómo se avanza entre etapas, cómo se gestionan los cambios y cómo se entregan versiones del producto.",
+        "temas": [
+          {
+            "titulo": "Modelo en Cascada",
+            "explicacion": "Modelo secuencial donde cada etapa debe completarse antes de pasar a la siguiente. Útil cuando los requerimientos están claramente definidos desde el inicio.",
+            "imagen": ""
+          },
+          {
+            "titulo": "Modelo Incremental",
+            "explicacion": "El software se construye en entregas parciales llamadas incrementos. Cada entrega agrega funcionalidad nueva al producto.",
+            "imagen": ""
+          },
+          {
+            "titulo": "Modelo de Prototipos",
+            "explicacion": "Se construyen versiones preliminares del sistema que evolucionan con retroalimentación del cliente. Permite corregir problemas en etapas tempranas.",
+            "imagen": ""
+          },
+          {
+            "titulo": "Modelos Ágiles",
+            "explicacion": "Enfoques iterativos y flexibles que combinan elementos de modelos anteriores. Se centran en adaptarse al cambio y reducir documentación pesada.",
+            "imagen": ""
+          },
+          {
+            "titulo": "Modelo Basado en Componentes",
+            "explicacion": "Reutiliza software previamente desarrollado mediante componentes configurables, reduciendo el código nuevo necesario.",
+            "imagen": ""
+          }
+        ]
+      },
+      {
+        "id": "metodologias-agiles",
+        "titulo": "Metodologías Ágiles",
+        "explicacion": "Metodologías que permiten adaptarse a cambios en los requerimientos, reducen la documentación pesada y promueven equipos cohesionados. Scrum es uno de los ejemplos más representativos.",
+        "temas": [
+          {
+            "titulo": "Scrum",
+            "explicacion": "Marco de trabajo basado en iteraciones cortas llamadas sprints. Define roles, artefactos y eventos para gestionar el desarrollo.",
+            "imagen": "",
+            "palabrasClave": [
+              { "termino": "Sprint", "definicion": "Iteración de 1 a 4 semanas donde se desarrolla un incremento del producto." },
+              { "termino": "Product Owner", "definicion": "Responsable de priorizar el backlog y representar al cliente." },
+              { "termino": "Scrum Master", "definicion": "Facilitador del proceso y eliminador de impedimentos." },
+              { "termino": "Daily Scrum", "definicion": "Reunión diaria de seguimiento del equipo." }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
