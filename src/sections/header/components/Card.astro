@@ -1,0 +1,25 @@
+---
+import data from "../../../data/header/header.json";
+
+const secciones = data?.cabecera?.secciones;
+console.log(secciones);
+---
+
+<>
+{
+    secciones.map((seccion) => (
+        <section class="px-8 my-4 py-2 border-t-2 rounded-t bg-orange-300 text-pretty">
+            <h2 class="text-3xl mb-4">{seccion.titulo}</h2>
+            <p class="text-lg text-gray-200">{seccion.explicacion}</p>
+            <div class="flex gap-x-4">
+            {seccion.temas.map((tema) => (
+                <article class=" ring-4 p-2 my-2 bg-white rounded text-black">
+                    <h3 class="font-bold mb-2" >{tema.titulo}</h3>
+                    <p>{tema.explicacion}</p>
+                </article>
+            ))}
+            </div>
+        </section>
+        ))
+    }
+</>
