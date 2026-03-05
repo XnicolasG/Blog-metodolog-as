@@ -11,10 +11,22 @@
             "explicacion": "Los interesados del proyecto definen y acuerdan los requerimientos que el software debe cumplir. Incluye obtención, análisis, especificación y validación de requerimientos.",
             "imagen": "/img/header/checklist.jpg",
             "palabrasClave": [
-              { "termino": "Obtención", "definicion": "Recolección de necesidades mediante entrevistas, cuestionarios o datos." },
-              { "termino": "Análisis", "definicion": "Evaluación de viabilidad técnica, económica y temporal." },
-              { "termino": "Especificación", "definicion": "Documentación formal de los requerimientos." },
-              { "termino": "Validación", "definicion": "Verificación de que los requerimientos sean completos, coherentes y alcanzables." }
+              {
+                "termino": "Obtención",
+                "definicion": "Recolección de necesidades mediante entrevistas, cuestionarios o datos."
+              },
+              {
+                "termino": "Análisis",
+                "definicion": "Evaluación de viabilidad técnica, económica y temporal."
+              },
+              {
+                "termino": "Especificación",
+                "definicion": "Documentación formal de los requerimientos."
+              },
+              {
+                "termino": "Validación",
+                "definicion": "Verificación de que los requerimientos sean completos, coherentes y alcanzables."
+              }
             ]
           },
           {
@@ -27,9 +39,18 @@
             "explicacion": "Se crea un modelo abstracto del sistema basado en los requerimientos. Incluye arquitectura, estructuras de datos, interfaces y componentes.",
             "imagen": "/img/header/desing.jpg",
             "palabrasClave": [
-              { "termino": "Diseño de arquitectura", "definicion": "Identificación de subsistemas y sus relaciones." },
-              { "termino": "Diseño de interfaces", "definicion": "Definición de cómo interactúan los subsistemas." },
-              { "termino": "Diseño de componentes", "definicion": "Asignación de servicios a componentes específicos." }
+              {
+                "termino": "Diseño de arquitectura",
+                "definicion": "Identificación de subsistemas y sus relaciones."
+              },
+              {
+                "termino": "Diseño de interfaces",
+                "definicion": "Definición de cómo interactúan los subsistemas."
+              },
+              {
+                "termino": "Diseño de componentes",
+                "definicion": "Asignación de servicios a componentes específicos."
+              }
             ]
           },
           {
@@ -52,44 +73,75 @@
           {
             "titulo": "Modelo en Cascada",
             "explicacion": "Modelo secuencial donde cada etapa debe completarse antes de pasar a la siguiente. Útil cuando los requerimientos están claramente definidos desde el inicio.",
-            "imagen": ""
+            "imagen": "/img/header/cascade.png"
           },
           {
             "titulo": "Modelo Incremental",
             "explicacion": "El software se construye en entregas parciales llamadas incrementos. Cada entrega agrega funcionalidad nueva al producto.",
-            "imagen": ""
+            "imagen": "/img/header/progress.png"
           },
           {
             "titulo": "Modelo de Prototipos",
             "explicacion": "Se construyen versiones preliminares del sistema que evolucionan con retroalimentación del cliente. Permite corregir problemas en etapas tempranas.",
-            "imagen": ""
+            "imagen": "/img/header/wireframe.png"
           },
           {
             "titulo": "Modelos Ágiles",
             "explicacion": "Enfoques iterativos y flexibles que combinan elementos de modelos anteriores. Se centran en adaptarse al cambio y reducir documentación pesada.",
-            "imagen": ""
+            "imagen": "/img/header/agile.png"
           },
           {
             "titulo": "Modelo Basado en Componentes",
             "explicacion": "Reutiliza software previamente desarrollado mediante componentes configurables, reduciendo el código nuevo necesario.",
-            "imagen": ""
+            "imagen": "/img/header/gears.jpg"
           }
         ]
       },
       {
         "id": "metodologias-agiles",
         "titulo": "Metodologías Ágiles",
-        "explicacion": "Metodologías que permiten adaptarse a cambios en los requerimientos, reducen la documentación pesada y promueven equipos cohesionados. Scrum es uno de los ejemplos más representativos.",
+        "explicacion": "Metodologías que permiten adaptarse a cambios en los requerimientos, reducen la documentación pesada y promueven equipos cohesionados. Scrum y Kanban son ejemplos representativos que buscan mejorar la entrega continua y la colaboración.",
         "temas": [
           {
             "titulo": "Scrum",
-            "explicacion": "Marco de trabajo basado en iteraciones cortas llamadas sprints. Define roles, artefactos y eventos para gestionar el desarrollo.",
-            "imagen": "",
+            "explicacion": "Marco de trabajo ágil basado en sprints cortos. Busca entregar incrementos funcionales mediante roles definidos, eventos regulares y prácticas que facilitan la inspección, adaptación y transparencia durante el desarrollo.",
+            "imagen": "/img/header/scrum.png",
             "palabrasClave": [
-              { "termino": "Sprint", "definicion": "Iteración de 1 a 4 semanas donde se desarrolla un incremento del producto." },
-              { "termino": "Product Owner", "definicion": "Responsable de priorizar el backlog y representar al cliente." },
-              { "termino": "Scrum Master", "definicion": "Facilitador del proceso y eliminador de impedimentos." },
-              { "termino": "Daily Scrum", "definicion": "Reunión diaria de seguimiento del equipo." }
+              {
+                "termino": "Sprint",
+                "definicion": "Iteración de 1 a 4 semanas donde se desarrolla un incremento del producto."
+              },
+              {
+                "termino": "Product Owner",
+                "definicion": "Responsable de priorizar el backlog y representar al cliente."
+              },
+              {
+                "termino": "Scrum Master",
+                "definicion": "Facilitador del proceso y eliminador de impedimentos."
+              },
+              {
+                "termino": "Daily Scrum",
+                "definicion": "Reunión diaria de seguimiento del equipo."
+              }
+            ]
+          },
+          {
+            "titulo": "Kanban",
+            "explicacion": "Método ágil basado en la visualización del flujo de trabajo mediante un tablero dividido en columnas. Su objetivo es limitar el trabajo en progreso, mejorar la eficiencia del equipo y optimizar el flujo continuo de tareas sin necesidad de iteraciones fijas.",
+            "imagen": "/img/header/kanban.png",
+            "palabrasClave": [
+              {
+                "termino": "Flujo Continuo",
+                "definicion": "Trabajo que avanza sin iteraciones fijas, moviéndose según capacidad del equipo."
+              },
+              {
+                "termino": "WIP",
+                "definicion": "Límite de trabajo en progreso para evitar sobrecarga y mejorar el rendimiento."
+              },
+              {
+                "termino": "Tablero Kanban",
+                "definicion": "Representación visual del estado de cada tarea en columnas como 'Por hacer', 'En progreso' y 'Hecho'."
+              }
             ]
           }
         ]

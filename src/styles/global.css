@@ -1,24 +1,31 @@
 @import "tailwindcss";
 
-.card{
-    margin-top: 2rem;
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: repeat(
-        auto-fit, minmax(500px, 1fr)
-    );
-}
-.card-item {
-  display: flex;
+.card {
+  margin-top: 2rem;
+  display: grid;
   gap: 1.5rem;
-  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
+/* Cada card ahora es un grid interno */
+.card-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto auto;
+  gap: 1rem;
+  /* align-items: center; */
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+/* Imagen */
 .img-wrapper {
   width: 100%;
-  aspect-ratio: 1 / 1; 
+  aspect-ratio: 1 / 1;
   overflow: hidden;
-  border-radius: 0 1rem 0 1rem ;
+  border-radius: 1rem 0 0 1rem; /* Mantengo tu estilo */
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
 }
 
 .img {
@@ -27,6 +34,24 @@
   object-fit: cover;
 }
 
-.content{
-    flex: 1;
+/* Contenido */
+.content {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+
+.keywords {
+  grid-column: 1 / 3; 
+  grid-row: 2 / 3;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.keyword {
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.5rem;
+  font-size: 0.85rem;
 }

@@ -9,32 +9,44 @@ console.log(secciones);
 <>
     {
         secciones.map((seccion) => (
-            <section class="px-8 my-4 py-2  rounded-t text-pretty">
-                <h2 class="text-5xl mb-4">
-                    {" "}
-                    <span class="text-7xl">*</span>
+            <section class="px-8 my-4 py-2 rounded-t text-pretty">
+                <h2 class="text-4xl mb-4  ">
+                    <span >✦ </span>
                     {seccion.titulo}
                 </h2>
+
                 <p class="text-lg text-orange-500">{seccion.explicacion}</p>
-                <div class="card ">
+
+                <div class="card">
                     {seccion.temas.map((tema) => (
-                        <div class="flex bg-white rounded-bl-2xl rounded-tr-xl gap-4 items-center card-item pr-2 ">
+                        <div class="card-item">
                             {tema.imagen && (
                                 <figure class="img-wrapper">
                                     <Image
                                         src={tema.imagen}
-                                        width={900}
-                                        height={900}
+                                        width={800}
+                                        height={800}
                                         alt={tema.titulo}
                                         class="img hover:scale-110 transition-all duration-200"
                                     />
                                 </figure>
                             )}
-
-                            <article class=" text-black">
+                            <article class="content">
                                 <h3 class="font-bold mb-2">{tema.titulo}</h3>
                                 <p>{tema.explicacion}</p>
                             </article>
+
+                            {tema.palabrasClave && (
+                                <div class="keywords">
+                                    {tema.palabrasClave.map((p) => (
+                                        <span 
+                                        title={p.definicion}
+                                        class="keyword cursor-pointer bg-amber-600 font-bold ring-2 hover:ring-orange-500 hover:bg-white hover:text-orange-500 hover:animate-bounce transition-all duration-100">
+                                            {p.termino}
+                                        </span>
+                                    ))}
+                                </div>
+                            )}
                         </div>
                     ))}
                 </div>

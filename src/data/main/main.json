@@ -1,0 +1,20 @@
+{
+  "main": {
+    "secciones": [
+      {
+        "id": "proposito",
+        "titulo": "¿Cuál es el propósito del blog?",
+        "tagline": "",
+        "respuesta": "",
+        "imagen": "/img/main/why.png"
+      },
+      {
+        "id": "importancia",
+        "titulo": "¿Por qué es importante conocer los modelos de construcción de software y las metodologías ágiles?",
+        "tagline": "",
+        "respuesta": "",
+        "imagen": ""
+      }
+    ]
+  }
+}

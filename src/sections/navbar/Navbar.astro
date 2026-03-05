@@ -6,7 +6,7 @@ const navItems = [
     },
     {
         title: "Página principal",
-        Link: "#home",
+        Link: "#main",
     },
     {
         title: "Footer",
@@ -15,7 +15,7 @@ const navItems = [
 ];
 ---
 
-<nav class="w-full text-xl sticky top-0 border-b border-white/50">
+<nav class="w-full z-30 text-xl sticky top-0 border-b border-white/50">
     <ul class="flex gap-x-8 px-8 py-4  backdrop-blur-lg">
         {
             navItems?.map((item) => (
