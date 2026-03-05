@@ -9,7 +9,7 @@
           {
             "titulo": "Especificación de Requerimientos",
             "explicacion": "Los interesados del proyecto definen y acuerdan los requerimientos que el software debe cumplir. Incluye obtención, análisis, especificación y validación de requerimientos.",
-            "imagen": "",
+            "imagen": "/img/header/checklist.jpg",
             "palabrasClave": [
               { "termino": "Obtención", "definicion": "Recolección de necesidades mediante entrevistas, cuestionarios o datos." },
               { "termino": "Análisis", "definicion": "Evaluación de viabilidad técnica, económica y temporal." },
@@ -20,12 +20,12 @@
           {
             "titulo": "Planeación",
             "explicacion": "Se define un plan que guiará el desarrollo del proyecto. Incluye prácticas administrativas y técnicas para establecer un mapa estratégico y táctico del proyecto.",
-            "imagen": ""
+            "imagen": "/img/header/calendar.jpg"
           },
           {
             "titulo": "Modelado (Diseño)",
             "explicacion": "Se crea un modelo abstracto del sistema basado en los requerimientos. Incluye arquitectura, estructuras de datos, interfaces y componentes.",
-            "imagen": "",
+            "imagen": "/img/header/desing.jpg",
             "palabrasClave": [
               { "termino": "Diseño de arquitectura", "definicion": "Identificación de subsistemas y sus relaciones." },
               { "termino": "Diseño de interfaces", "definicion": "Definición de cómo interactúan los subsistemas." },
@@ -35,12 +35,12 @@
           {
             "titulo": "Desarrollo",
             "explicacion": "Se genera el código fuente del sistema. Incluye implementación, parametrización y aplicación de principios como reducción de complejidad y facilidad de pruebas.",
-            "imagen": ""
+            "imagen": "/img/header/code.jpg"
           },
           {
             "titulo": "Implementación",
             "explicacion": "Puesta en marcha del software. Incluye corrección de errores, ajustes y actividades de mantenimiento posteriores.",
-            "imagen": ""
+            "imagen": "/img/header/deploy.jpg"
           }
         ]
       },

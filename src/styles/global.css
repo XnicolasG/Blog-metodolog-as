@@ -1,1 +1,32 @@
 @import "tailwindcss";
+
+.card{
+    margin-top: 2rem;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(
+        auto-fit, minmax(500px, 1fr)
+    );
+}
+.card-item {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.img-wrapper {
+  width: 100%;
+  aspect-ratio: 1 / 1; 
+  overflow: hidden;
+  border-radius: 0 1rem 0 1rem ;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content{
+    flex: 1;
+}
