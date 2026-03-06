@@ -1,0 +1,33 @@
+---
+import { Image } from "astro:assets";
+import data from "../../../data/main/main.json";
+
+const secciones = data?.main?.secciones;
+---
+
+<>
+    {
+        secciones.map((seccion, i) => (
+            <section class="px-8 my-4 py-2 text-pretty">
+                <h2 class="text-4xl mb-4">
+                    <span>✦ </span>
+                    {seccion?.titulo}
+                </h2>
+                <h4 class="font-bold text-orange-500 text-xl">
+                    "{seccion?.tagline}"
+                </h4>
+                <img
+                    src={seccion.imagen}
+                    alt={seccion.titulo}
+                    class={`${(i+1 )% 2 ? 'float-left' : 'float-right' } w-80 h-auto mr-4 mb-4 rounded`}
+                />
+
+                {seccion.respuesta.map((p, i) => (
+                    <p class="mb-3" >
+                        {p}
+                    </p>
+                ))}
+            </section>
+        ))
+    }
+</>

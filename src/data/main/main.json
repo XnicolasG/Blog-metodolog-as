@@ -4,16 +4,24 @@
       {
         "id": "proposito",
         "titulo": "¿Cuál es el propósito del blog?",
-        "tagline": "",
-        "respuesta": "",
+        "tagline": "El software es más que código: es un proceso completo.",
+        "respuesta": [
+            "El propósito de este blog es contextualizar todas las actividades que intervienen en la construcción de un producto de software. A menudo se piensa que desarrollar software consiste únicamente en que una persona se siente frente a un computador a escribir código, pero la realidad es mucho más amplia y compleja. Detrás de cada aplicación existe un conjunto de etapas, decisiones y prácticas que permiten que un producto sea sólido, escalable y mantenible.",
+            "En los proyectos actuales, especialmente en aquellos de mayor alcance, el trabajo no recae en una sola persona, sino en equipos especializados que participan en fases como el análisis, el diseño, la planificación, el desarrollo, las pruebas y el despliegue continuo. Cada una de estas etapas requiere habilidades específicas y una coordinación adecuada para garantizar que el producto final cumpla con los objetivos del cliente y las necesidades del usuario.",
+            "Por esta razón, este blog busca presentar de manera clara los diferentes modelos de desarrollo y las metodologías ágiles que acompañan estas actividades. Ambos elementos proporcionan enfoques estructurados y buenas prácticas que permiten organizar el trabajo, mejorar la colaboración del equipo y asegurar que el proceso de construcción del software sea eficiente, adaptable y sostenible"
+        ],
         "imagen": "/img/main/why.png"
       },
       {
         "id": "importancia",
         "titulo": "¿Por qué es importante conocer los modelos de construcción de software y las metodologías ágiles?",
-        "tagline": "",
-        "respuesta": "",
-        "imagen": ""
+        "tagline": "Estructura y agilidad para un desarrollo más eficiente.",
+        "respuesta": [
+            "Conocer los modelos de construcción de software y las metodologías ágiles es fundamental para desarrollar productos de calidad en el entorno tecnológico actual. Aunque algunos proyectos pueden ser realizados por una sola persona, incluso en esos casos es fácil que el proceso se vuelva desordenado, improvisado o difícil de mantener. Los modelos de desarrollo proporcionan una estructura clara que guía cada etapa del proceso, evitando el caos y permitiendo avanzar de manera organizada y predecible.",
+            "Cuando el trabajo se realiza en equipo, esta necesidad se vuelve aún más evidente. Cada integrante aporta ideas, tareas y responsabilidades que deben coordinarse para que el producto final funcione como un todo coherente. Los modelos de desarrollo ayudan a definir el orden, las fases y las prioridades, mientras que las metodologías ágiles facilitan la comunicación, la transparencia y la colaboración continua. Gracias a ellas, los equipos pueden adaptarse a cambios, priorizar tareas y mantener un ritmo de trabajo saludable y productivo.",
+            "Incluso para desarrolladores individuales, aplicar principios ágiles y seguir un modelo de desarrollo aporta claridad, enfoque y una mejor gestión del tiempo. En conjunto, estos enfoques permiten construir software más estable, escalable y alineado con las necesidades reales del proyecto."
+        ],
+        "imagen": "/img/main/importance.png"
       }
     ]
   }
