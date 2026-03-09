@@ -13,13 +13,13 @@ const secciones = data?.main?.secciones;
                     <span>✦ </span>
                     {seccion?.titulo}
                 </h2>
-                <h4 class="font-bold text-orange-500 text-xl">
+                <h4 class="font-bold text-orange-500 mb-4 text-xl">
                     "{seccion?.tagline}"
                 </h4>
                 <img
                     src={seccion.imagen}
                     alt={seccion.titulo}
-                    class={`${(i+1 )% 2 ? 'float-left' : 'float-right' } w-80 h-auto mr-4 mb-4 rounded`}
+                    class={`${(i+1 ) % 2 ? 'float-left' : 'float-right' } w-80 h-auto mx-4 my-2 rounded`}
                 />
 
                 {seccion.respuesta.map((p, i) => (
